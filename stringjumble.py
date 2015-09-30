@@ -30,6 +30,9 @@ a= list(input("Please enter a string of text (the bigger the better): "))
 a.reverse()
 for x in a:
     sys.stdout.write(x)
-a.split(reverse=True)
-print(a)
+words = a.split
+words.reverse()
+for word in words:
+    print(word)
+
 
