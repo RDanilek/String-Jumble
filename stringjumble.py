@@ -28,7 +28,8 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 import sys
 a= list(input("Please enter a string of text (the bigger the better): "))
 a.reverse()
-print(a)
 for x in a:
     sys.stdout.write(x)
+a.sort(reverse=True)
+print(a)
 
