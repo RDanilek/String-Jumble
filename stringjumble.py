@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Roger Danilek
-Credit: 
+Credit: Adam Pikielny
 
 Assignment:
 
@@ -28,5 +28,6 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 a= list(input("Please enter a string of text (the bigger the better): "))
 a.reverse()
 print(a)
-
+for x in a:
+    sys.stdout.write(x)
 
