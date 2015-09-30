@@ -30,6 +30,6 @@ a= list(input("Please enter a string of text (the bigger the better): "))
 a.reverse()
 for x in a:
     sys.stdout.write(x)
-a.sort(reverse=True)
+a.split(reverse=True)
 print(a)
 
