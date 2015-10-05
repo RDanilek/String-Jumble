@@ -31,11 +31,14 @@ b= list(a)
 b.reverse()
 for x in b:
     print(x, end="")
+print()
 words = a.split()
 words.reverse()
 for word in words:
-    print(word, end="")
+    print(word, end=" ")
+print()
+bam = a.split(reverse=True)
 
-for 
+ 
 
 
