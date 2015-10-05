@@ -37,8 +37,9 @@ words.reverse()
 for word in words:
     print(word, end=" ")
 print()
-bam = a.split(reverse=True)
-
+bam = a.split()
+for w in bam:
+    print(list(w).reverse())
  
 
 
