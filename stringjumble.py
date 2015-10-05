@@ -34,6 +34,6 @@ for x in b:
 words = a.split()
 words.reverse()
 for word in words:
-    print(sys.stdout.write(word+" "))
+    print(sys.stdout.write(word))
 
 
