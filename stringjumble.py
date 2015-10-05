@@ -27,6 +27,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 import sys
 a= input("Please enter a string of text (the bigger the better): ")
+print('You entered "'+a+'". Now jumble it:')
 b= list(a)
 b.reverse()
 for x in b:
