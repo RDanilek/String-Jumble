@@ -40,7 +40,7 @@ print()
 bam = a.split()
 for w in bam:
     f = list(w).reverse()
-    print(f, end=""
+    print(f, end="")
     
  
 
