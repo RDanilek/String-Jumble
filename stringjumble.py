@@ -30,11 +30,11 @@ a= input("Please enter a string of text (the bigger the better): ")
 b= list(a)
 b.reverse()
 for x in b:
-    print(x.end=" ")
+    print(x, end=" ")
 words = a.split()
 words.reverse()
 for word in words:
-    print(word.end=" ")
+    print(word, end=" ")
 
 for 
 
