@@ -41,7 +41,7 @@ bam = a.split()
 for w in bam:
     f = list(w)
     f.reverse()
-    print(f, end=" ")
+    print(''.join(f), end=" ")
     
  
 
