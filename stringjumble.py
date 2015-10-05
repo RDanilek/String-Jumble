@@ -39,7 +39,9 @@ for word in words:
 print()
 bam = a.split()
 for w in bam:
-    print(list(w).reverse())
+    f = list(w).reverse()
+    print(f, end=""
+    
  
 
 
