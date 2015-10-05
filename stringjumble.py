@@ -31,7 +31,7 @@ b= list(a)
 b.reverse()
 for x in b:
     sys.stdout.write(x)
-words = a.split
+words = a.split()
 words.reverse()
 for word in words:
     print(sys.stdout.write(word+" "))
